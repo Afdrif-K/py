@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: tfx2001
-# License: GNU GPLv3
-# Time: 2018-08-09 18:27
-
 import turtle as te
 from bs4 import BeautifulSoup
 import argparse
@@ -16,7 +11,7 @@ WriteStep = 15  # 贝塞尔函数的取样次数
 Speed = 1000
 Width = 600  # 界面宽度
 Height = 600  # 界面高度
-Xh = 0  # 记录前一个贝塞尔函数的手柄
+Xh = 0  
 Yh = 0
 scale = (1, 1)
 first = True
